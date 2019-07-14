@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-    const API_URL = 'http://ADDR:8080/api/invoices';
+    const API_URL = $('http://' + process.env.BACK_IP + ':8080/api/invoices');
 
 class InvoiceItemService {
 
