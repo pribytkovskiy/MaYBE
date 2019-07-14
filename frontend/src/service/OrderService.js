@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'http://146.148.56.81:8080/api/orders';
+const API_URL = 'http://'${process.env.BACK_IP}':8080/api/orders';
 
 class OrderService {
     getAllOrders() {
