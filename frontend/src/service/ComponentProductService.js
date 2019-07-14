@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'http://'${process.env.BACK_IP}':8080/api/products';
+const API_URL = '${http://${process.env.BACK_IP}:8080/api/components}';
 
 class ComponentProductService {
     getProductComponents(productId) {
