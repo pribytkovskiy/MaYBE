@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = $('http://' + process.env.BACK_IP + ':8080/api/statistics');
+const API_URL = 'http://BACK_IP:8080/api/statistics';
 
 class StatisticsService {
 
